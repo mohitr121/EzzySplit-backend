@@ -20,7 +20,6 @@ exports.getGroup = async (req, res) => {
 };
 
 
-
 exports.createGroup = async (req, res) => {
     try {
         const groupName = req.body.groupName;
